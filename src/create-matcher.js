@@ -166,7 +166,8 @@ export function createMatcher (
 
   return {
     match,
-    addRoutes
+    addRoutes,
+    pathMap
   }
 }
 
